@@ -19,10 +19,14 @@ const SideBar = () => {
       >
         <ul className="flex flex-col gap-5 p-2 md:mt-4 md:gap-8">
           <li className="flex cursor-pointer rounded border-2 shadow-lg hover:opacity-75 md:p-3">
-            <Link className="w-max p-2 md:p-3">مقدمة</Link>
+            <Link to="intro" className="w-max p-2 md:p-3">
+              مقدمة
+            </Link>
           </li>
           <li className="flex cursor-pointer rounded border-2 shadow-lg hover:opacity-75 md:p-3">
-            <Link className="w-max p-2 md:p-3">مضاعفات السكري</Link>
+            <Link to="complications" className="w-max p-2 md:p-3">
+              مضاعفات السكري
+            </Link>
           </li>
           <li className="flex cursor-pointer rounded border-2 shadow-lg hover:opacity-75 md:p-3">
             <Link className="w-max p-2 md:p-3">الوقاية</Link>
