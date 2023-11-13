@@ -29,7 +29,9 @@ const SideBar = () => {
             </Link>
           </li>
           <li className="flex cursor-pointer rounded border-2 shadow-lg hover:opacity-75 md:p-3">
-            <Link className="w-max p-2 md:p-3">الوقاية</Link>
+            <Link to="prevention" className="w-max p-2 md:p-3">
+              الوقاية
+            </Link>
           </li>
           <li className="flex cursor-pointer rounded border-2 shadow-lg hover:opacity-75 md:p-3">
             <Link className="w-max p-2 md:p-3">دعم مرضى السكري</Link>

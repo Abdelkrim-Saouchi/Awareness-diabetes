@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Complications from "./pages/Complications";
 import Home from "./pages/Home";
 import Intro from "./pages/Intro";
+import Prevention from "./pages/Prevention";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "complications",
         element: <Complications />,
+      },
+      {
+        path: "prevention",
+        element: <Prevention />,
       },
     ],
   },

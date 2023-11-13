@@ -29,12 +29,12 @@ const QAbar = ({ content }) => {
           {content.question}
         </h3>
       </div>
-      <p
+      <div
         ref={answerRef}
         className="hidden scale-y-0 p-3 text-lg font-semibold opacity-80"
       >
         {content.body}
-      </p>
+      </div>
     </div>
   );
 };
