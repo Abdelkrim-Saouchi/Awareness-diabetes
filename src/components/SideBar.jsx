@@ -17,7 +17,7 @@ const SideBar = () => {
     <>
       <div
         ref={sideBarRef}
-        className="fixed z-20 flex min-h-full w-max translate-x-full flex-col items-center border-l border-l-gray-200 bg-white px-4 py-2 text-xl shadow-lg md:relative md:translate-x-0 md:text-2xl md:font-semibold"
+        className="fixed z-20 flex min-h-screen w-max translate-x-full flex-col items-center border-l border-l-gray-200 bg-white px-4 py-2 text-xl shadow-lg md:relative md:translate-x-0 md:text-2xl md:font-semibold"
       >
         <ul className="flex flex-col gap-5 p-2 md:mt-4 md:gap-8">
           <li
