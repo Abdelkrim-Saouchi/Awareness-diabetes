@@ -48,7 +48,7 @@ const DiabetesPrev = () => {
         </ul>
       </div>
       <div>
-        <p className="text-green-700">أحسب مؤشر كتلتك:</p>
+        <p className="text-green-700">أحسب مؤشر كتلة جسمك:</p>
         <IMCCalculator />
       </div>
     </div>

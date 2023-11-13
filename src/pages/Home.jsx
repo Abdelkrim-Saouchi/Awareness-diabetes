@@ -1,3 +1,5 @@
+import qrCode from "../assets/qrcode.png";
+
 const Home = () => {
   return (
     <main className="flex grow flex-col items-center px-6 py-2">
@@ -19,16 +21,18 @@ const Home = () => {
         <p className="text-xl font-semibold opacity-80">
           هذا الموقع أنشئ خصيصا لهذه التظاهرة يحتوي معلومات نحسب أن تكون نافعة
           بإذن الله للجميع حول مرض السكري، يمكن للتلاميذ بإذن من أوليائهم أو
-          أساتذتهم الإطلاع على المعلومات التي فيه في أي وقت أرادوا وحتى طرح
-          الأسئلة في القسم "إسأل" من الموقع.
+          أساتذتهم الإطلاع على المعلومات التي فيه في أي وقت أرادوا.
         </p>
       </div>
       <div className="mt-6">
         <p className="text-xl font-semibold">
           يمكن الإطلاع على الموقع عبر الرابط التالي:
         </p>
-        <p className="mb-4 text-xl font-semibold">wwww</p>
+        <p className="mb-4 text-xl font-semibold">
+          diabetes-awareness.netlify.app
+        </p>
         <p className="text-xl font-semibold">أو عن طريق نسخ كيوأركود:</p>
+        <img src={qrCode} alt="QR code" className="mb-8 w-[300px]" />
       </div>
     </main>
   );
