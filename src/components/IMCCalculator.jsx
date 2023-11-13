@@ -22,8 +22,8 @@ const IMCCalculator = () => {
   if (result > 35 && result < 39.9) comment = "أنت لديك سمنة مفرطة";
   if (result > 40) comment = "أنت لديك سمنة خطيرة";
   return (
-    <div className="my-3 flex flex-col items-center gap-3 border p-4 shadow">
-      <div className="flex flex-wrap items-center gap-4">
+    <div className="my-3 flex flex-col gap-3 border p-2 shadow">
+      <div className="flex flex-col gap-4">
         <label htmlFor="weight">
           وزنك
           <input
@@ -48,7 +48,7 @@ const IMCCalculator = () => {
       </div>
       <button
         onClick={calculateIMC}
-        className="rounded bg-black px-4 py-2 text-white hover:bg-white hover:text-black hover:outline hover:outline-black"
+        className="self-end rounded bg-black px-2 py-2 text-white hover:bg-white hover:text-black hover:outline hover:outline-black"
       >
         أحسب
       </button>
